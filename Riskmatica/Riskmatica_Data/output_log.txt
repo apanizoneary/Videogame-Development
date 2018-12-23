@@ -1,0 +1,36 @@
+Initialize engine version: 4.6.0f3 (30840d631a27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Pana\Desktop\Riskmatica_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\I18N.dll (this message is harmless)
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\I18N.West.dll (this message is harmless)
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Pana\Desktop\Riskmatica_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Pana\Desktop\Riskmatica_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Pana\Desktop\Riskmatica_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Pana\Desktop\Riskmatica_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.130 seconds
+desktop: 2560x1440 144Hz; virtual: 4660x1558 at -2100,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Pana\Desktop\Riskmatica_Data\Managed\System.Xml.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Reflective/VertexLit' - Pass '' shader state not supported
+WARNING: Shader Unsupported: 'Outlined/Silhouetted Diffuse' - Pass 'OUTLINE' shader state not supported
+UnloadTime: 2.693552 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1161.
+Total: 0.812420 ms (FindLiveObjects: 0.043835 ms CreateObjectMapping: 0.016657 ms MarkObjects: 0.350100 ms  DeleteObjects: 0.028054 ms)
+
