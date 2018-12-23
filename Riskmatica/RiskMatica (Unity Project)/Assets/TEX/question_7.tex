@@ -1,0 +1,45 @@
+%\ Tema : Funciones
+%\ Dificultad : Media
+%\ ID : 1
+
+\documentclass[10pt,spanish,hyperref={pdfpagelabels=false}]{beamer}
+\DeclareMathOperator{\RR}{\mathbb{R}}
+\DeclareMathOperator{\too}{\longrightarrow }
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\renewcommand*\footnoterule{}
+\let\thefootnote\relax
+
+\beamertemplatenavigationsymbolsempty 
+
+\author{Alejandro Panizo}
+\title{Pregunta \LaTeX}
+
+\begin{document}
+
+\Large
+
+\rightskip=0pt
+
+\begin{frame}
+
+Sea $f :\RR ^n \to \RR$ diferenciable en $\overline{a}\in \RR ^n$, entonces para cada $\overline {v}\in \RR ^n$, se cumple que
+$$D_{\overline{v}} f(\overline{a}) = \nabla f(\overline{a}) \cdot \overline {v} $$
+\medskip
+
+
+
+\begin{enumerate}[1.] \rightskip=0pt
+\item Cierto, se cumple siempre por ser $f$ diferenciable.
+\item Falso, solo si $\|\overline{v}\|=1$.
+\item Falso, solo si $\nabla f(\overline{a})\neq 0$.
+\item Ninguna de las anteriores es correcta.
+\end{enumerate}
+
+
+\end{frame}
+
+\end{document}

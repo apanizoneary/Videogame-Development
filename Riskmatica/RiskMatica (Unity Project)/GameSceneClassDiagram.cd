@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameGUI">
+    <Position X="4.75" Y="1.75" Width="1.75" />
+    <Members>
+      <Field Name="answerTime" Hidden="true" />
+      <Field Name="gameMan" Hidden="true" />
+      <Field Name="gamePanel" Hidden="true" />
+      <Field Name="gamePanelCG" Hidden="true" />
+      <Field Name="invadePanel" Hidden="true" />
+      <Field Name="invadePanelCG" Hidden="true" />
+      <Field Name="invSuccess" Hidden="true" />
+      <Field Name="numPlayers" Hidden="true" />
+      <Field Name="playerPanel" Hidden="true" />
+      <Field Name="playerPanelCG" Hidden="true" />
+      <Field Name="playerScoresText" Hidden="true" />
+      <Field Name="playersGO" Hidden="true" />
+      <Field Name="playerTerritoriesText" Hidden="true" />
+      <Field Name="pTexts" Hidden="true" />
+      <Property Name="PTexts" Hidden="true" />
+      <Field Name="qButtons" Hidden="true" />
+      <Field Name="qCurrent" Hidden="true" />
+      <Field Name="qDisplayer" Hidden="true" />
+      <Field Name="qDone" Hidden="true" />
+      <Field Name="qList" Hidden="true" />
+      <Field Name="qTexts" Hidden="true" />
+      <Field Name="qTimer" Hidden="true" />
+      <Field Name="roundText" Hidden="true" />
+      <Field Name="scorePanel" Hidden="true" />
+      <Field Name="scorePanelCG" Hidden="true" />
+      <Field Name="scoresGO" Hidden="true" />
+      <Field Name="timer" Hidden="true" />
+      <Field Name="timerText" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="7.625" Y="1.191" />
+        <Point X="7.625" Y="1.45" />
+        <Point X="5.625" Y="1.45" />
+        <Point X="5.625" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>KBQQAQRBAEAAhACAEABASAAFQChFQAACwIIAkEABCEM=</HashCode>
+      <FileName>Assets\Scripts\GameScene\GameGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="8.75" Y="1.75" Width="1.75" />
+    <Members>
+      <Field Name="bridgeData" Hidden="true" />
+      <Field Name="gameMan" Hidden="true" />
+      <Field Name="invadeableTiles" Hidden="true" />
+      <Property Name="InvadeableTiles" Hidden="true" />
+      <Field Name="isleCount" Hidden="true" />
+      <Field Name="isTurn" Hidden="true" />
+      <Property Name="IsTurn" Hidden="true" />
+      <Field Name="movementCount" Hidden="true" />
+      <Property Name="MovementCount" Hidden="true" />
+      <Field Name="playerColor" Hidden="true" />
+      <Field Name="playerName" Hidden="true" />
+      <Field Name="playerScore" Hidden="true" />
+      <Property Name="PlayerScore" Hidden="true" />
+      <Field Name="playerStats" Hidden="true" />
+      <Property Name="PlayerStats" Hidden="true" />
+      <Field Name="playerTiles" Hidden="true" />
+      <Property Name="PlayerTiles" Hidden="true" />
+      <Field Name="tileData" Hidden="true" />
+      <Field Name="tileMap" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="7.625" Y="1.191" />
+        <Point X="7.625" Y="1.45" />
+        <Point X="9.625" Y="1.45" />
+        <Point X="9.625" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ICAwIAQgCgAABAKAAAkCAAAAAAAAACQABAJEAIAAQMA=</HashCode>
+      <FileName>Assets\Scripts\GameScene\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Question">
+    <Position X="8.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABABAAgAAAAAAAAAAAAAACAEAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Persistent\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestionContainer">
+    <Position X="2.5" Y="4.75" Width="2" />
+    <Members>
+      <Field Name="Questions" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Persistent\QuestionContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestionMan">
+    <Position X="2.5" Y="1.75" Width="2" />
+    <Members>
+      <Field Name="lastID" Hidden="true" />
+      <Field Name="nextGameQuestions" Hidden="true" />
+      <Field Name="nextID" Hidden="true" />
+      <Field Name="qContainer" Hidden="true" />
+      <Field Name="qCount" Hidden="true" />
+      <Property Name="QCount" Hidden="true" />
+      <Field Name="xmlPath" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="7.625" Y="1.191" />
+        <Point X="7.625" Y="1.45" />
+        <Point X="3.5" Y="1.45" />
+        <Point X="3.5" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAABAAAQAAhQQAAAAAgAAAABAQAAEAAAhgEA=</HashCode>
+      <FileName>Assets\Scripts\Persistent\QuestionMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tuple&lt;T1, T2&gt;">
+    <Position X="10.75" Y="4" Width="1.75" />
+    <Members>
+      <Property Name="First" Hidden="true" />
+      <Property Name="Second" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Persistent\Tuple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile">
+    <Position X="10.75" Y="1.75" Width="1.75" />
+    <Members>
+      <Field Name="flag" Hidden="true" />
+      <Field Name="gameMan" Hidden="true" />
+      <Field Name="highlightColor" Hidden="true" />
+      <Field Name="hitInfo" Hidden="true" />
+      <Field Name="isHighlight" Hidden="true" />
+      <Field Name="neighbourTiles" Hidden="true" />
+      <Field Name="pole" Hidden="true" />
+      <Field Name="ray" Hidden="true" />
+      <Field Name="tileColor" Hidden="true" />
+      <Field Name="token" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.625" Y="1.191" />
+        <Point X="7.625" Y="1.45" />
+        <Point X="11.625" Y="1.45" />
+        <Point X="11.625" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAUQAAAIoACABAAgAIAgAAAAAAAAAAAABAAAAAAAAEE=</HashCode>
+      <FileName>Assets\Scripts\GameScene\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameManager">
+    <Position X="6.75" Y="1.75" Width="1.75" />
+    <Members>
+      <Field Name="allTiles" Hidden="true" />
+      <Field Name="currentPlayer" Hidden="true" />
+      <Property Name="CurrentPlayer" Hidden="true" />
+      <Field Name="currentPlayerIndex" Hidden="true" />
+      <Property Name="CurrentPlayerIndex" Hidden="true" />
+      <Field Name="difficulty" Hidden="true" />
+      <Field Name="GUIman" Hidden="true" />
+      <Field Name="invadedTile" Hidden="true" />
+      <Field Name="isFirstPlayer" Hidden="true" />
+      <Field Name="isInvading" Hidden="true" />
+      <Property Name="IsInvading" Hidden="true" />
+      <Field Name="matchRounds" Hidden="true" />
+      <Field Name="numPlayers" Hidden="true" />
+      <Property Name="NumPlayers" Hidden="true" />
+      <Field Name="numRounds" Hidden="true" />
+      <Property Name="NumRounds" Hidden="true" />
+      <Field Name="playerList" Hidden="true" />
+      <Property Name="PlayerList" Hidden="true" />
+      <Field Name="playerNames" Hidden="true" />
+      <Field Name="playerPrefab" Hidden="true" />
+      <Field Name="qManager" Hidden="true" />
+      <Field Name="theme" Hidden="true" />
+      <Field Name="tileMap" Hidden="true" />
+      <Property Name="TileMap" Hidden="true" />
+      <Field Name="tileOwners" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="7.625" Y="1.191" />
+        <Point X="7.625" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAIghADCgQARAoIAUAFAhBAAKcCCAADIAiggCBEA=</HashCode>
+      <FileName>Assets\Scripts\GameScene\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
